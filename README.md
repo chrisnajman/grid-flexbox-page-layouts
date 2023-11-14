@@ -22,6 +22,11 @@ The result is the same whether `grid` or `flexbox` is used (but `grid` uses less
 - `100dvh` (with `100vh` as fallback) set on `.main-layout` for 100% page height.
   - (Avoids setting 100% height on `html, body` which can cause problems on mobile.)
 
+### Update 14/11/2023
+
+A bug causing an accessible table with a scrolling containers to fail when using the `grid` page layout, has been fixed
+and the result placed and documented on the accompanying Git Pages website. See [Page Layout (Grid) with Scrollable Table](https://chrisnajman.github.io/grid-flexbox-page-layouts/grid-scroll.html)
+
 ## Testing
 
 - Tested on:
