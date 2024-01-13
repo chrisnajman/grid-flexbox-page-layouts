@@ -46,7 +46,7 @@ h2 {
     font-size: 1.5rem;
     position: relative;
     text-transform: lowercase;
-    width: fit-content;
+    width: -moz-fit-content; width: fit-content;
     padding: 0 0.75rem;
     margin: var(--horz-center);
 }
